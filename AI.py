@@ -89,7 +89,7 @@ class ByteBuddy:
         
         self.window.minsize(800, 800)
         
-        self.api_key = "AIzaSyBezEr0nat_ri_mV8gtTk3UgIyWW66WbE8"
+        self.api_key = "YOUR GEMINI API KEY"
         genai.configure(api_key=self.api_key)
         self.model = genai.GenerativeModel('gemini-2.0-flash')
 
